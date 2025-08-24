@@ -18,7 +18,7 @@ This allows the program to "listen" to the audio from your videos, calls, or gam
 
 ### Step 2: Set Up a Browser Profile
 
-<!-- Note: You won't be able to record audio from another instance of the same browser. -->
+> **Note:** You won't be able to record audio from another instance of the same browser.
 
 We'll create a dedicated browser profile for this so you don't change your main browser's settings. **Choose one of these two alternatives:**
 
