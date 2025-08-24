@@ -81,7 +81,7 @@ This prevents the transcription from stopping if you switch to another window.
 
 Now for the magic part.
 
-1.  Open this link in your `record` Chrome profile:
+1.  Open this link in your `record` browser profile:
     > **[Start Live Transcription](https://colab.research.google.com/drive/1H8-Uc8O08d3VkBzLTQzJGgLZPkwAoimW?usp=sharing)**
 
 2.  In the notebook's top menu, go to **"Runtime"** and click **"Run all"**.
