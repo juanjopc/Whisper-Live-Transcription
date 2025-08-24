@@ -16,28 +16,28 @@ This allows the program to "listen" to the audio from your videos, calls, or gam
 5.  Now, right-click on **"Stereo Mix"** and select **"Enable"**.
 6.  Click **Accept** to save.
 
-### Step 2: Set Up a Chrome Profile
+### Step 2: Set Up a Recording Profile
 
-We'll create a dedicated Chrome profile for this so you don't change your main browser's settings.
+We’ll use a separate browser profile so your main settings stay the same.  
+Pick either **Google Chrome** or **Microsoft Edge**.  
+> **Note:** You can’t record audio from one window to another in the same browser.
 
-**First, create the profile:**
-1.  In Chrome, click your **profile icon** (top-right).
-2.  Click **"+ Add Chrome profile"**.
-3.  Select **"Continue without an account"**.
-4.  Give it a name (e.g., `record`) and click **"Done"**.
+#### Option A: Google Chrome
 
-**Now, configure the microphone for this profile:**
-1.  In your new `record` profile, go to the three-dot menu (`⋮`) and open **"Settings"**.
-2.  Find and open **"Site Settings"**.
-3.  Click on **"Microphone"**.
-4.  At the top, where you choose the microphone, select **"Stereo Mix"**.
+1. Click your **profile icon** (top-right) and choose **“+ Add Chrome profile.”**  
+2. Select **“Continue without an account,”** name it (e.g., `record`), and click **Done**.  
+3. In the new profile, open **Settings** (⋮ menu), go to **Site Settings > Microphone**, and choose **Stereo Mix**.  
+4. In **Settings > Performance**, under **Always keep these sites active**, click **Add** and add:  
+   - `colab.research.google.com`  
+   - `[*.]gradio.live`  
 
-**Finally, keep the necessary sites active:**
-1.  In Settings, go to the **Performance** section.
-2.  In the "Always keep these sites active" area, click **Add**.
-3.  Add the following sites one by one:
-    *   `colab.research.google.com`
-    *   `[*.]gradio.live`
+#### Option B: Microsoft Edge
+
+1. Click your **profile icon** (top-right) and choose **“Set up a new personal profile.”**  
+2. In the new profile, open **Settings** (⋯ menu), go to **Privacy, search and services > Site permissions > All permissions**, and choose **Stereo Mix** under **Microphone**.  
+3. In **Settings > System and performance**, under **Never put these sites to sleep**, click **Add site** and add:  
+   - `colab.research.google.com`  
+   - `[*.]gradio.live`  
 
 ### Step 3: Install an Extension
 
