@@ -32,6 +32,13 @@ We'll create a dedicated Chrome profile for this so you don't change your main b
 3.  Click on **"Microphone"**.
 4.  At the top, where you choose the microphone, select **"Stereo Mix"**.
 
+**Finally, keep the necessary sites active:**
+1.  In Settings, go to the **Performance** section.
+2.  In the "Always keep these sites active" area, click **Add**.
+3.  Add the following sites one by one:
+    *   `colab.research.google.com`
+    *   `[*.]gradio.live`
+
 ### Step 3: Install an Extension
 
 This prevents the transcription from stopping if you switch to another window.
@@ -50,7 +57,7 @@ This prevents the transcription from stopping if you switch to another window.
 Now for the magic part.
 
 1.  Open this link in your `record` Chrome profile:
-    > **[Start Live Transcription](https://colab.research.google.com/drive/1t0EmNYXB-6os4w0HNCD5wxENadKb0vpm?usp=sharing)**
+    > **[Start Live Transcription](https://colab.research.google.com/drive/1H8-Uc8O08d3VkBzLTQzJGgLZPkwAoimW?usp=sharing)**
 
 2.  In the notebook's top menu, go to **"Runtime"** and click **"Run all"**.
 
