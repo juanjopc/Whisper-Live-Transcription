@@ -3,6 +3,7 @@
 # Whisper Live Transcription 🎤
 An easy guide for your PC to transcribe any audio **free and in real-time** using Google Colab
 
+[![🎤 Transcribe cualquier audio en tiempo real (Videollamadas, Clases, etc.)](https://img.youtube.com/vi/X6dvclPhz28/maxresdefault.jpg)](https://youtu.be/X6dvclPhz28)
 ---
 
 ### Step 1: Enable Your PC's "Internal Sound"
